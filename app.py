@@ -7,7 +7,7 @@ from sklearn.naive_bayes import BernoulliNB
 
 
 # Load the trained pipeline
-pipeline = joblib.load('abc.pkl')
+pipeline = joblib.load('model.pkl')
 
 # Function to predict class
 def predict_class(text):
